@@ -1,0 +1,20 @@
+x, y, z;
+{
+    input x;
+    SWITCH x {
+        CASE 1:
+        {
+            y = 10;
+        }
+        CASE 2:
+        {
+            y = 20;
+        }
+        DEFAULT:
+        {
+            y = 100;
+        }
+    }
+    output y;
+}
+5
